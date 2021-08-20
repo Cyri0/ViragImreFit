@@ -1,0 +1,34 @@
+.navbar{
+    max-width: 1300px;
+    width: 90%;
+    margin: auto;
+}
+
+.nav-content{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-buttons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-border{
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, #CC9618 0%, #DCD69B 100%);
+}
+
+#logo{
+    color: white;
+}
